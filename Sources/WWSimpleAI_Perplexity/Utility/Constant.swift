@@ -55,8 +55,12 @@ public extension WWSimpleAI.Perplexity {
         }
     }
     
-    /// Gemini錯誤
+    /// 自定義錯誤
     enum CustomError: Error {
+        case unknown
+        case unauthorized
+        case deserializeJSON
         case error(_ error: [String: Any])
+        case httpError(_ response: HTTPURLResponse)
     }
 }

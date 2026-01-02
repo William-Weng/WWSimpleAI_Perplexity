@@ -1,5 +1,5 @@
 {
-  "originHash" : "bb5b1e9024cb59e01b0c520a5652134da34b1ba377389ff5a6c5081cd61d66b9",
+  "originHash" : "728db556cdceab6b7fc4272c84586f191e073ced7de2f967ae74cbd8c804f856",
   "pins" : [
     {
       "identity" : "wwnetworking",
@@ -17,6 +17,15 @@
       "state" : {
         "revision" : "0e0c0e2ecfc9b6cb9db151d1d4dfa5b7a190fa87",
         "version" : "1.2.0"
+      }
+    },
+    {
+      "identity" : "wwsimpleai_perplexity",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/William-Weng/WWSimpleAI_Perplexity",
+      "state" : {
+        "revision" : "af42c963d3c495d9fbe9d50f2321c54f64f008f5",
+        "version" : "0.5.0"
       }
     }
   ],

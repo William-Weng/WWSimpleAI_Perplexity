@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		819E944F2F0768AA00EF5672 /* WWSimpleAI_Perplexity in Frameworks */ = {isa = PBXBuildFile; productRef = 819E944E2F0768AA00EF5672 /* WWSimpleAI_Perplexity */; };
+		819E94552F07921200EF5672 /* WWSimpleAI_Perplexity in Frameworks */ = {isa = PBXBuildFile; productRef = 819E94542F07921200EF5672 /* WWSimpleAI_Perplexity */; };
+		819E94582F0797BD00EF5672 /* WWSimpleAI_Perplexity in Frameworks */ = {isa = PBXBuildFile; productRef = 819E94572F0797BD00EF5672 /* WWSimpleAI_Perplexity */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				819E94582F0797BD00EF5672 /* WWSimpleAI_Perplexity in Frameworks */,
+				819E94552F07921200EF5672 /* WWSimpleAI_Perplexity in Frameworks */,
 				819E944F2F0768AA00EF5672 /* WWSimpleAI_Perplexity in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,6 +88,8 @@
 			name = Example;
 			packageProductDependencies = (
 				819E944E2F0768AA00EF5672 /* WWSimpleAI_Perplexity */,
+				819E94542F07921200EF5672 /* WWSimpleAI_Perplexity */,
+				819E94572F0797BD00EF5672 /* WWSimpleAI_Perplexity */,
 			);
 			productName = Example;
 			productReference = 817EE1FE2EB1FA050036B57C /* Example.app */;
@@ -114,7 +120,7 @@
 			mainGroup = 817EE1F52EB1FA050036B57C;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				819E944D2F0768AA00EF5672 /* XCLocalSwiftPackageReference "../../@WWSimpleAI_Perplexity" */,
+				819E94562F0797BD00EF5672 /* XCRemoteSwiftPackageReference "WWSimpleAI_Perplexity" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 817EE1FF2EB1FA050036B57C /* Products */;
@@ -357,16 +363,29 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		819E944D2F0768AA00EF5672 /* XCLocalSwiftPackageReference "../../@WWSimpleAI_Perplexity" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = "../../@WWSimpleAI_Perplexity";
+/* Begin XCRemoteSwiftPackageReference section */
+		819E94562F0797BD00EF5672 /* XCRemoteSwiftPackageReference "WWSimpleAI_Perplexity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/William-Weng/WWSimpleAI_Perplexity";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.0;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		819E944E2F0768AA00EF5672 /* WWSimpleAI_Perplexity */ = {
 			isa = XCSwiftPackageProductDependency;
+			productName = WWSimpleAI_Perplexity;
+		};
+		819E94542F07921200EF5672 /* WWSimpleAI_Perplexity */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WWSimpleAI_Perplexity;
+		};
+		819E94572F0797BD00EF5672 /* WWSimpleAI_Perplexity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 819E94562F0797BD00EF5672 /* XCRemoteSwiftPackageReference "WWSimpleAI_Perplexity" */;
 			productName = WWSimpleAI_Perplexity;
 		};
 /* End XCSwiftPackageProductDependency section */

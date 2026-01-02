@@ -68,10 +68,14 @@ private extension WWSimpleAI.Perplexity {
     /// - Returns: Result<String?, Error>
     func parseChatInformation(_ info: WWNetworking.ResponseInformation) -> Result<String?, Error> {
         
+        guard let response = info.response else { return .failure(CustomError.unknown) }
+        
+        if (response.statusCode == 401) { return .failure(CustomError.unauthorized) }
+        
         guard let jsonObject = info.data?._jsonObject(),
               let dictionary = jsonObject as? [String: Any]
         else {
-            return .success(nil)
+            return .failure(CustomError.deserializeJSON)
         }
         
         if let error = dictionary["error"] as? [String: Any] { return .failure(CustomError.error(error)) }
