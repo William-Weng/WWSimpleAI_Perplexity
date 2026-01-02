@@ -17,7 +17,7 @@ dependencies: [
 ### 可用函式 (Function)
 |函式|功能|
 |-|-|
-|configure(apiKey:model)|[設定apiKey](https://www.perplexity.ai/account/)|
+|configure(apiKey:model:)|[設定apiKey](https://www.perplexity.ai/account/)|
 |chat(text:)|[執行聊天功能](https://docs.perplexity.ai/api-reference/async-chat-completions-post)|
 
 ### Example
