@@ -1,0 +1,24 @@
+{
+  "originHash" : "bb5b1e9024cb59e01b0c520a5652134da34b1ba377389ff5a6c5081cd61d66b9",
+  "pins" : [
+    {
+      "identity" : "wwnetworking",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/William-Weng/WWNetworking.git",
+      "state" : {
+        "revision" : "2c7ce462a79c7c894dbb20dfa766b3eada9d2644",
+        "version" : "1.9.0"
+      }
+    },
+    {
+      "identity" : "wwsimpleai_ollama",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/William-Weng/WWSimpleAI_Ollama",
+      "state" : {
+        "revision" : "0e0c0e2ecfc9b6cb9db151d1d4dfa5b7a190fa87",
+        "version" : "1.2.0"
+      }
+    }
+  ],
+  "version" : 3
+}
